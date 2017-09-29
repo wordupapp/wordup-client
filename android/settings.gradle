@@ -1,4 +1,8 @@
 rootProject.name = 'wordUp'
+include ':react-native-voice'
+project(':react-native-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-voice/android')
+include ':VoiceModule', ':app'
+project(':VoiceModule').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-voice')
 include ':react-native-sound-recorder'
 project(':react-native-sound-recorder').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound-recorder/android')
 

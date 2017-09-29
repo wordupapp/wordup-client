@@ -12,7 +12,12 @@
     "node-record-lpcm16": "^0.3.0",
     "react": "16.0.0-alpha.12",
     "react-native": "0.48.4",
+    "react-native-android-voice": "^0.6.0",
+    "react-native-google-speech": "^3.0.10",
+    "react-native-level-fs": "^3.0.0",
     "react-native-sound-recorder": "^1.1.0",
+    "react-native-stt": "0.0.2",
+    "react-native-voice": "^0.1.12",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
